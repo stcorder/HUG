@@ -1,0 +1,26 @@
+Adressing concerns:
+
+1. Complexity of migrating to the cloud
+
+When it comes to Lift and shift
+
+
+2. Exposing their infrastructure to the internet generates security concerns
+
+When it comes to moving data to the cloud
+
+3. Management complexity by global Tech-Ops department
+
+Microsoft Azure will take care of your infraestructure for the applications so minimium management will be required and also no code changes are needed.
+All 
+
+4. Sensitive medical records cannot be stored outside of Colombia
+
+Since medical data for Colombia cannot leave the country we can leave a reserved on-premises datacenter for this 
+
+5. GDPR compliance
+
+
+6. HIPAA audit will happen within the next 3 months
+
+If we design the architecture using Blueprints, the environment will be compliant with HIPAA regulations.

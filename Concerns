@@ -2,7 +2,8 @@ Adressing concerns:
 
 1. Complexity of migrating to the cloud
 
-When it comes to Lift and shift
+When it comes to Lift and shift we would be starting small, doing a rehosting instead of having to rebuild or having to make code changes.
+We have internal tools like Azure Migrate that would take care of doing the migration for us and the actual need to migrate will be assisted by us and we would assist you throughout the whole process.
 
 
 2. Exposing their infrastructure to the internet generates security concerns
@@ -16,11 +17,32 @@ All
 
 4. Sensitive medical records cannot be stored outside of Colombia
 
-Since medical data for Colombia cannot leave the country we can leave a reserved on-premises datacenter for this 
+Since medical data for Colombia cannot leave the country we can leave a reserved on-premises datacenter for this.
 
-5. GDPR compliance
+However, we do recommend to go over this carefully yo make sure we comply with all regulations.
 
+When customers move workloads to Azure, they face a number of choices, such as datacenter regions, high availability (HA) and disaster recovery (DR) architecture, and encryption models. To make the right decisions, customer need to consider both technical and regulatory requirements. To optimize latency, customers should determine the appropriate region based on the location of their users or customer base.
 
-6. HIPAA audit will happen within the next 3 months
+For regulatory compliance considerations, data residency considerations may support or even mandate the physical locations where data can be stored, and how and when it can be transferred internationally. These regulations can differ significantly depending on jurisdiction. Azure’s regions and service features provide customers with different avenues so they can select and limit data residency and data access. This enables customers in regulated industries to successfully run mission-critical workloads in the cloud and leverage all the advantages of the Microsoft hyperscale cloud.
+
+Reference: https://azure.microsoft.com/en-us/blog/making-your-data-residency-choices-easier-with-azure/
+
+Understanding Azure’s regional infrastructure, including high availability, availability zones, disaster recovery, latency, and service availability considerations, and how to make optimal architecture decisions.
+Data residency assurances and how customers can control data residency. Most Azure services are deployed regionally and enable the customer to specify the region into which the service will be deployed and control where the customer data will be stored. Certain services and regions have some exceptions and limitations to these rules, which are outlined fully in the white paper.
+Data access to telemetry data, including elevated access for support data, and how customers can manage data access. The collection and use of telemetry and support data issues  has raised questions from some of our customers, and the white paper provides detailed answers.
+How Microsoft protects customer data from unauthorized access and how Microsoft handles government requests, including implications of the Cloud ACT. Customers have asked us for specific details about when Microsoft engineers may access data and how we respond to government requests for data. The white paper provides clarity.
+Tools customers can use to protect from unauthorized and authorized data access. Customers have a wealth of tools available to restrict, protect, and encrypt data at rest, in transit, and in some cases, in use.
+Data retention and deletion. The white paper details Microsoft’s policies and practices for the retention and disposal of customer data.
+
+We will review this as go over every detail so we do not miss anything.
+
+5. GDPR compliance and 6. HIPAA audit will happen within the next 3 months
 
 If we design the architecture using Blueprints, the environment will be compliant with HIPAA regulations.
+
+We would use blueprints to make sure we are compliant and the audit will be successful
+
+https://docs.microsoft.com/es-es/azure/governance/blueprints/samples/iso-27001-2013
+
+https://docs.microsoft.com/es-es/azure/governance/blueprints/samples/hipaa-hitrust-9-2
+

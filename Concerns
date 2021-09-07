@@ -8,12 +8,18 @@ We have internal tools like Azure Migrate that would take care of doing the migr
 
 2. Exposing their infrastructure to the internet generates security concerns
 
-When it comes to moving data to the cloud
+Express Route: dedicated, unencrypted, private connection, layer 3(routing protocol), Redundancy
+
+VPN: encrypted over internet connection
+
 
 3. Management complexity by global Tech-Ops department
 
 Microsoft Azure will take care of your infraestructure for the applications so minimium management will be required and also no code changes are needed.
-All 
+We will simplify management by introducing RBAC for security
+
+No need to support IaaS as we would take care of it
+
 
 4. Sensitive medical records cannot be stored outside of Colombia
 
